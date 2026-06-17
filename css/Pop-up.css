@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-    .body {
+    body {
       font-family: "Balsamiq Sans", sans-serif;
       font-weight: 400;
       font-style: normal;
@@ -11,3 +11,10 @@
       /* ===== Also outline on font for better legibility ===== */
       text-shadow: 2px 2px 2px #000000;
      }
+
+     .navbar,
+     .navbar *,
+     footer,
+     footer * {
+        text-shadow: none;
+    }
